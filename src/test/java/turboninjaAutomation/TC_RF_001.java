@@ -6,11 +6,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import utils.CommonUtils;
+
 
 public class TC_RF_001 {
 	
 @Test
-	public void verifyRegisterAccountUsingMandatoryFields() {
+	public void verifyRegisterAccountUsingMandatoryFields() throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -20,7 +22,7 @@ public class TC_RF_001 {
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.id("input-firstname")).sendKeys("Afrith");
 		driver.findElement(By.id("input-lastname")).sendKeys("Ahamed");
-		driver.findElement(By.id("input-email")).sendKeys(genarateEmail());
+		driver.findElement(By.id("input-email")).sendKeys(CommonUtils.genarateEmail());
 		driver.findElement(By.id("input-telephone")).sendKeys("123456789");
 		driver.findElement(By.id("input-password")).sendKeys("1234");
 		driver.findElement(By.id("input-confirm")).sendKeys("1234");
@@ -28,14 +30,21 @@ public class TC_RF_001 {
 		driver.findElement(By.xpath("//input[@value='Continue']")).click();
 		
 		Assert.assertTrue(driver.findElement(By.xpath("//h1[text()='Your Account Has Been Created!']")).isDisplayed());
+		Thread.sleep(2000);
+		
+		driver.findElement(By.linkText("Continue")).click();
+		
+		Assert.assertTrue(driver.findElement(By.xpath("//h2[text()='My Account']")).isDisplayed());
+		
+		driver.quit();
 	
 	}
 
-public String genarateEmail() {
-	String mail = "afrith"+System.currentTimeMillis()+"@gmail.com";
-
-	System.out.println(mail);
-	return mail;
-	}
+//public String genarateEmail() {
+	//String mail = "afrith"+System.currentTimeMillis()+"@gmail.com";
+//
+	//System.out.println(mail);
+	//return mail;
+	//}
 
 };

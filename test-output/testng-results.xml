@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-04T11:59:17 IST" name="Suite" finished-at="2026-02-04T11:59:42 IST" duration-ms="24801">
+  <suite started-at="2026-02-04T12:54:14 IST" name="Suite" finished-at="2026-02-04T12:54:56 IST" duration-ms="42518">
     <groups>
     </groups>
-    <test started-at="2026-02-04T11:59:17 IST" name="Test" finished-at="2026-02-04T11:59:42 IST" duration-ms="24801">
+    <test started-at="2026-02-04T12:54:14 IST" name="Test" finished-at="2026-02-04T12:54:56 IST" duration-ms="42518">
       <class name="turboninjaAutomation.TC_RF_001">
-        <test-method signature="verifyRegisterAccountUsingMandatoryFields()[pri:0, instance:turboninjaAutomation.TC_RF_001@49e53c76]" started-at="2026-02-04T11:59:17 IST" name="verifyRegisterAccountUsingMandatoryFields" finished-at="2026-02-04T11:59:28 IST" duration-ms="10305" status="PASS">
+        <test-method signature="verifyRegisterAccountUsingMandatoryFields()[pri:0, instance:turboninjaAutomation.TC_RF_001@35d019a3]" started-at="2026-02-04T12:54:14 IST" name="verifyRegisterAccountUsingMandatoryFields" finished-at="2026-02-04T12:54:23 IST" duration-ms="9504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountUsingMandatoryFields -->
       </class> <!-- turboninjaAutomation.TC_RF_001 -->
+      <class name="turboninjaAutomation.TC_RF_005">
+        <test-method signature="verifyRegisteringNewsletterFieldSelectedYes()[pri:0, instance:turboninjaAutomation.TC_RF_005@6302bbb1]" started-at="2026-02-04T12:54:39 IST" name="verifyRegisteringNewsletterFieldSelectedYes" finished-at="2026-02-04T12:54:47 IST" duration-ms="8598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringNewsletterFieldSelectedYes -->
+      </class> <!-- turboninjaAutomation.TC_RF_005 -->
       <class name="turboninjaAutomation.TC_RF_004">
-        <test-method signature="verifyNotificationForMandatoryFieldsWhenDetailsNotProvidedInRegisterAccount()[pri:0, instance:turboninjaAutomation.TC_RF_004@3023df74]" started-at="2026-02-04T11:59:36 IST" name="verifyNotificationForMandatoryFieldsWhenDetailsNotProvidedInRegisterAccount" finished-at="2026-02-04T11:59:42 IST" duration-ms="6180" status="PASS">
+        <test-method signature="verifyNotificationForMandatoryFieldsWhenDetailsNotProvidedInRegisterAccount()[pri:0, instance:turboninjaAutomation.TC_RF_004@4135c3b]" started-at="2026-02-04T12:54:32 IST" name="verifyNotificationForMandatoryFieldsWhenDetailsNotProvidedInRegisterAccount" finished-at="2026-02-04T12:54:39 IST" duration-ms="6885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNotificationForMandatoryFieldsWhenDetailsNotProvidedInRegisterAccount -->
       </class> <!-- turboninjaAutomation.TC_RF_004 -->
       <class name="turboninjaAutomation.TC_RF_003">
-        <test-method signature="verifyRegisteringAnAccountByProvidingAllTheFields()[pri:0, instance:turboninjaAutomation.TC_RF_003@145f66e3]" started-at="2026-02-04T11:59:28 IST" name="verifyRegisteringAnAccountByProvidingAllTheFields" finished-at="2026-02-04T11:59:36 IST" duration-ms="8199" status="PASS">
+        <test-method signature="verifyRegisteringAnAccountByProvidingAllTheFields()[pri:0, instance:turboninjaAutomation.TC_RF_003@2a65fe7c]" started-at="2026-02-04T12:54:23 IST" name="verifyRegisteringAnAccountByProvidingAllTheFields" finished-at="2026-02-04T12:54:32 IST" duration-ms="8189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisteringAnAccountByProvidingAllTheFields -->
       </class> <!-- turboninjaAutomation.TC_RF_003 -->
       <class name="turboninjaAutomation.TC_RF_002">
-        <test-method signature="verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister()[pri:0, instance:turboninjaAutomation.TC_RF_002@4c371370]" started-at="2026-02-04T11:59:28 IST" name="verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister" finished-at="2026-02-04T11:59:28 IST" duration-ms="5" status="PASS">
+        <test-method signature="verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister()[pri:0, instance:turboninjaAutomation.TC_RF_002@4562e04d]" started-at="2026-02-04T12:54:23 IST" name="verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister" finished-at="2026-02-04T12:54:23 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister -->
       </class> <!-- turboninjaAutomation.TC_RF_002 -->
+      <class name="turboninjaAutomation.TC_RF_006">
+        <test-method signature="verifyRegisteringNewsletterFieldSelectedNo()[pri:0, instance:turboninjaAutomation.TC_RF_006@31304f14]" started-at="2026-02-04T12:54:47 IST" name="verifyRegisteringNewsletterFieldSelectedNo" finished-at="2026-02-04T12:54:56 IST" duration-ms="9221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringNewsletterFieldSelectedNo -->
+      </class> <!-- turboninjaAutomation.TC_RF_006 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

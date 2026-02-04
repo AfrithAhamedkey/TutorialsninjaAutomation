@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-03T12:05:42 IST" name="Suite" finished-at="2026-02-03T12:05:59 IST" duration-ms="16870">
+  <suite started-at="2026-02-04T09:07:15 IST" name="Suite" finished-at="2026-02-04T09:07:45 IST" duration-ms="30021">
     <groups>
     </groups>
-    <test started-at="2026-02-03T12:05:42 IST" name="Test" finished-at="2026-02-03T12:05:59 IST" duration-ms="16870">
+    <test started-at="2026-02-04T09:07:15 IST" name="Test" finished-at="2026-02-04T09:07:45 IST" duration-ms="30021">
       <class name="turboninjaAutomation.TC_RF_001">
-        <test-method signature="verifyRegisterAccountUsingMandatoryFields()[pri:0, instance:turboninjaAutomation.TC_RF_001@3c19aaa5]" started-at="2026-02-03T12:05:42 IST" name="verifyRegisterAccountUsingMandatoryFields" finished-at="2026-02-03T12:05:51 IST" duration-ms="9080" status="PASS">
+        <test-method signature="verifyRegisterAccountUsingMandatoryFields()[pri:0, instance:turboninjaAutomation.TC_RF_001@79e18e38]" started-at="2026-02-04T09:07:15 IST" name="verifyRegisterAccountUsingMandatoryFields" finished-at="2026-02-04T09:07:37 IST" duration-ms="22023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountUsingMandatoryFields -->
       </class> <!-- turboninjaAutomation.TC_RF_001 -->
       <class name="turboninjaAutomation.TC_RF_003">
-        <test-method signature="verifyRegisteringAnAccountByProvidingAllTheFields()[pri:0, instance:turboninjaAutomation.TC_RF_003@35d019a3]" started-at="2026-02-03T12:05:51 IST" name="verifyRegisteringAnAccountByProvidingAllTheFields" finished-at="2026-02-03T12:05:59 IST" duration-ms="7702" status="PASS">
+        <test-method signature="verifyRegisteringAnAccountByProvidingAllTheFields()[pri:0, instance:turboninjaAutomation.TC_RF_003@6865c751]" started-at="2026-02-04T09:07:37 IST" name="verifyRegisteringAnAccountByProvidingAllTheFields" finished-at="2026-02-04T09:07:45 IST" duration-ms="7839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisteringAnAccountByProvidingAllTheFields -->
       </class> <!-- turboninjaAutomation.TC_RF_003 -->
+      <class name="turboninjaAutomation.TC_RF_002">
+        <test-method signature="verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister()[pri:0, instance:turboninjaAutomation.TC_RF_002@89ff02e]" started-at="2026-02-04T09:07:37 IST" name="verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister" finished-at="2026-02-04T09:07:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister -->
+      </class> <!-- turboninjaAutomation.TC_RF_002 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

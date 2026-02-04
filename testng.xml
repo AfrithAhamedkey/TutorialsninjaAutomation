@@ -6,6 +6,7 @@
      <class name="turboninjaAutomation.TC_RF_001"/>
      <class name="turboninjaAutomation.TC_RF_002"/>
       <class name="turboninjaAutomation.TC_RF_003"/>
+      <class name="turboninjaAutomation.TC_RF_004"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

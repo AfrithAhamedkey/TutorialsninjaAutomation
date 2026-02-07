@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="turboninjaAutomation.TC_RF_003">
+      <class name="turboninjaAutomation.TC_RF_011">
         <methods>
-          <include name="verifyRegisteringAnAccountByProvidingAllTheFields"/>
+          <include name="verifyWarningMessageForInvalidPhoneNumber"/>
         </methods>
-      </class> <!-- turboninjaAutomation.TC_RF_003 -->
+      </class> <!-- turboninjaAutomation.TC_RF_011 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

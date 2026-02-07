@@ -8,11 +8,44 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8,569</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">77,472</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">turboninjaAutomation.TC_RF_010</td><td><a href="#m0">verifyWarningMessageForInvalidMailAddress</a></td><td rowspan="1">1770297441091</td><td rowspan="1">8476</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">turboninjaAutomation.TC_RF_011</td><td><a href="#m0">verifyWarningMessageForInvalidPhoneNumber</a></td><td rowspan="1">1770445991746</td><td rowspan="1">7428</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">turboninjaAutomation.TC_RF_001</td><td><a href="#m1">verifyRegisterAccountUsingMandatoryFields</a></td><td rowspan="1">1770445928821</td><td rowspan="1">10181</td></tr><tr class="passedodd"><td rowspan="1">turboninjaAutomation.TC_RF_002</td><td><a href="#m2">verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister</a></td><td rowspan="1">1770445939010</td><td rowspan="1">2</td></tr><tr class="passedeven"><td rowspan="1">turboninjaAutomation.TC_RF_003</td><td><a href="#m3">verifyRegisteringAnAccountByProvidingAllTheFields</a></td><td rowspan="1">1770445939016</td><td rowspan="1">8231</td></tr><tr class="passedodd"><td rowspan="1">turboninjaAutomation.TC_RF_004</td><td><a href="#m4">verifyNotificationForMandatoryFieldsWhenDetailsNotProvidedInRegisterAccount</a></td><td rowspan="1">1770445947251</td><td rowspan="1">6685</td></tr><tr class="passedeven"><td rowspan="1">turboninjaAutomation.TC_RF_005</td><td><a href="#m5">verifyRegisteringNewsletterFieldSelectedYes</a></td><td rowspan="1">1770445953939</td><td rowspan="1">8722</td></tr><tr class="passedodd"><td rowspan="1">turboninjaAutomation.TC_RF_006</td><td><a href="#m6">verifyRegisteringNewsletterFieldSelectedNo</a></td><td rowspan="1">1770445962663</td><td rowspan="1">8239</td></tr><tr class="passedeven"><td rowspan="1">turboninjaAutomation.TC_RF_007</td><td><a href="#m7">verifyDifferentMethodsToNavigateRegisterAccount</a></td><td rowspan="1">1770445970904</td><td rowspan="1">4694</td></tr><tr class="passedodd"><td rowspan="1">turboninjaAutomation.TC_RF_008</td><td><a href="#m8">verifyWarningMessageForPasswordMismatch</a></td><td rowspan="1">1770445975602</td><td rowspan="1">5390</td></tr><tr class="passedeven"><td rowspan="1">turboninjaAutomation.TC_RF_009</td><td><a href="#m9">verifyWarningMessageForRegisteringAnExistingMail</a></td><td rowspan="1">1770445980994</td><td rowspan="1">5086</td></tr><tr class="passedodd"><td rowspan="1">turboninjaAutomation.TC_RF_010</td><td><a href="#m10">verifyWarningMessageForInvalidMailAddress</a></td><td rowspan="1">1770445986083</td><td rowspan="1">5661</td></tr><tr class="passedeven"><td rowspan="1">turboninjaAutomation.TC_RF_012</td><td><a href="#m11">verifyInputViaKeyboard</a></td><td rowspan="1">1770445999181</td><td rowspan="1">7037</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">turboninjaAutomation.TC_RF_010#verifyWarningMessageForInvalidMailAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">turboninjaAutomation.TC_RF_011#verifyWarningMessageForInvalidPhoneNumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#input\-telephone\-Warning&quot;}
+  (Session info: chrome=144.0.7559.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7da66715f3d79e27675873c9ad39b8e, findElement {value=input-telephone-Warning, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\MNAFRI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50549}, goog:processID: 13324, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50549/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7da66715f3d79e27675873c9ad39b8e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at turboninjaAutomation.TC_RF_011.verifyWarningMessageForInvalidPhoneNumber(TC_RF_011.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">turboninjaAutomation.TC_RF_001#verifyRegisterAccountUsingMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">turboninjaAutomation.TC_RF_002#verifyEmailIsSentToTheRegisteredEmailAddressConfirmationForRegister</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">turboninjaAutomation.TC_RF_003#verifyRegisteringAnAccountByProvidingAllTheFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">turboninjaAutomation.TC_RF_004#verifyNotificationForMandatoryFieldsWhenDetailsNotProvidedInRegisterAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">turboninjaAutomation.TC_RF_005#verifyRegisteringNewsletterFieldSelectedYes</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">turboninjaAutomation.TC_RF_006#verifyRegisteringNewsletterFieldSelectedNo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">turboninjaAutomation.TC_RF_007#verifyDifferentMethodsToNavigateRegisterAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">turboninjaAutomation.TC_RF_008#verifyWarningMessageForPasswordMismatch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">turboninjaAutomation.TC_RF_009#verifyWarningMessageForRegisteringAnExistingMail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">turboninjaAutomation.TC_RF_010#verifyWarningMessageForInvalidMailAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">turboninjaAutomation.TC_RF_012#verifyInputViaKeyboard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

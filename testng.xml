@@ -12,6 +12,9 @@
        <class name="turboninjaAutomation.TC_RF_007"/>
        <class name="turboninjaAutomation.TC_RF_008"/>
        <class name="turboninjaAutomation.TC_RF_009"/>
+       <class name="turboninjaAutomation.TC_RF_010"/>
+       <class name="turboninjaAutomation.TC_RF_011"/>
+       <class name="turboninjaAutomation.TC_RF_012"/>
       
     </classes>
   </test> <!-- Test -->

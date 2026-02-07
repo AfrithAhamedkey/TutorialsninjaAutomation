@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="turboninjaAutomation.TC_RF_012">
+      <class name="turboninjaAutomation.TC_RF_014">
         <methods>
-          <include name="verifyInputViaKeyboard"/>
+          <include name="verifyTheRedRequiredSymbol"/>
         </methods>
-      </class> <!-- turboninjaAutomation.TC_RF_012 -->
+      </class> <!-- turboninjaAutomation.TC_RF_014 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

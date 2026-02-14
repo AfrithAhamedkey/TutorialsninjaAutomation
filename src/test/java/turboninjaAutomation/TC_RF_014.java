@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class TC_RF_014 {
 @Test
-	public void verifyTheRedRequiredSymbol() {
+	public void verifyTheRedRequiredSymbol() { //This is not a proper way(Javascript + CSS), Because UI may change.
 		
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();

@@ -21,6 +21,7 @@ public class TC_RF_015 {
 	
 	@Test
 	public void verifyTheProvidedDetailsStoredInDatabase() throws SQLException {
+	//Testing used new site used my local machine, Not tutorialsNinja site .
 		
 		String dummymail = CommonUtils.genarateEmail();
 		WebDriver driver = new ChromeDriver();
@@ -47,7 +48,7 @@ public class TC_RF_015 {
 	    js.executeScript("arguments[0].click();", continueBtn);
 	    driver.quit();
 	    
-	    // JDBC Work.............
+	    //........................... JDBC Work.............
 	    
 	    String url = "jdbc:mysql://localhost:3306/opencartdb";
 	    String username = "root";
